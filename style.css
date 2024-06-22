@@ -12,7 +12,6 @@ body{
 
 
 #header{
-    font-family: verdana, arial;
     margin:auto;
     background-image: url(/*"images/heic0109a.jpg"*/);
     background-repeat: no-repeat;
@@ -21,7 +20,6 @@ body{
     background-size:cover;
     background-color: rgb(63, 63, 63);
     color:aliceblue;
-    border-top: 2px solid green;
     border-bottom: 3px solid green;
     width:100%;
     min-width: 1000px;
@@ -32,38 +30,51 @@ body{
     top: 0;
 }
 #container{
-    font-family: "lucida console";
+    font-family: "";
     width:100%;
     height:auto;
     background-color:rgb(63, 63, 63) ;
 }
 #para{
-    padding-right: 1%;
-    padding-left: 17%;
-    width: 66%;
+    padding-right: 3%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+    width: 64%;
     margin-top: 0px;
-    min-height:810px;
-    float: left;
+    min-height:799px;
     background-color: rgb(212, 212, 212);
     overflow: auto;
+    float: left;
+    font-size: 19px;
 }
 .paraText{
     text-align:left;
-    font-size:20px;
+    font-size:19px;
     color: black;
 }
 #side{
+    padding-top: 10px;
     padding-left:1%;
     width: 14.8%;
-    min-height:810px;
-    max-height:810px;
+    min-height:789px;
+    float: left;
+    background-color: rgb(168, 168, 168);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+}
+#r-side{
+    padding-top: 10px;
+    width: 14.9%;
+    min-height:789px;
     float: right;
     background-color: rgb(168, 168, 168);
     color: rgb(0, 0, 0);
     font-size: 20px;
-    border-left: 2px solid green;
     text-decoration: none;
+
 }
+
 
 li:hover{
     background-color: white;
@@ -120,7 +131,8 @@ li:hover{
 }
 #statement{
     color: red;
-    margin-right: 5%;
+    margin-left: 5%;
+    margin-right: 8%;
     font-size: 1.2vw;
 }
 #plannedButton{
@@ -129,11 +141,11 @@ li:hover{
 }
 #aboutMeButton{
     font-size: 1.2vw;
-    margin-right:3%;
+    margin-right:2%;
 }
 #allBlogsButton{
     font-size: 1.2vw;
-    margin-right:3%;
+    margin-right:2%;
 }
 #contactMeButton{
     font-size: 1.2vw;
